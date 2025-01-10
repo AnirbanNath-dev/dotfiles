@@ -17,5 +17,7 @@ require('lazy').setup({
     require 'plugins.colortheme',
     require 'plugins.bufferline',
     require 'plugins.lualine',    
-    require 'plugins.presence'
+    require 'plugins.presence',
+    require 'plugins.treesitter',
+    require 'plugins.telescope',
 })

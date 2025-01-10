@@ -72,7 +72,7 @@ vim.keymap.set('n', '<leader>tn', ':tabn<CR>', opts)     --  go to next tab
 vim.keymap.set('n', '<leader>tp', ':tabp<CR>', opts)     --  go to previous tab
 
 -- Toggle line wrapping
-vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', opts)
+vim.keymap.set('n', '<leader>ww', '<cmd>set wrap!<CR>', opts)
 
 -- Press jk fast to exit insert mode
 vim.keymap.set('i', 'jk', '<ESC>', opts)
