@@ -20,5 +20,6 @@ require('lazy').setup({
     require 'plugins.presence',
     require 'plugins.treesitter',
     require 'plugins.telescope',
-    require 'plugins.wakatime'
+    require 'plugins.wakatime',
+    require 'plugins.comment',
 })
